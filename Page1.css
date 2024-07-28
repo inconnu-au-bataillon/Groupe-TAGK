@@ -1,0 +1,106 @@
+body {
+    background-image: url('img/OIP (1).jpg');
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+h1 {
+    color: rgb(2, 30, 30);
+    text-align: center;
+}
+
+
+.container-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.titre {
+    margin: 20px auto;
+    background-color: white;
+    width: 180px;
+    text-align: center;
+}
+
+
+.logo {
+    width: 100px;
+    height: auto;
+    border: 2px solid #0c0c0c;
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px rgba(213, 145, 219, 0.721);
+    margin-bottom: 50px;
+}
+
+
+.button, .button1 {
+    background-color: rgb(11, 129, 232);
+    width: 180px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+.button1 {
+    margin-left: 10px;
+}
+
+
+.p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.tableau1 {
+    background-color: rgba(255, 255, 255, 0.425);
+    padding: 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+
+}
+
+
+.table {
+    width: 300px;
+    height: auto;
+    box-shadow: 5px 5px 15px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.T1 { box-shadow: 5px 5px 15px rgba(224, 202, 4, 0.852); width: 310px; height: 248px;}
+.T2 { box-shadow: 5px 5px 15px rgba(136, 0, 182, 0.852); width: 310px; height: 245px;}
+.T3 { box-shadow: 5px 5px 15px rgba(255, 123, 0, 0.902); width: 190px; height: 260px;}
+.T4 { box-shadow: 5px 5px 15px rgba(254, 0, 131, 0.721); width: 333px; height: 265px;}
+.T5 { box-shadow: 5px 5px 15px rgba(255, 0, 0, 0.721); width: 320px; height: 250px;}
+
+
+.table img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
